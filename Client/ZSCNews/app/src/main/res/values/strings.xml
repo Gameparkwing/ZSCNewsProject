@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="host">192.168.1.114:8088</string>
+    <string name="host">192.168.1.114:8088/ZSCNewsProject/Server</string>
     <string name="server_key">4321</string>
     <string name="base">http://www.zsc.edu.cn/</string>
     <string name="app_name">中山学院新闻</string>
