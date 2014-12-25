@@ -438,7 +438,7 @@ public class DataRequester {
         else
         {
             strURL = "http://" + mContext.getString(R.string.host)
-                    + "/news/news_api.php?" + mContext.getString(R.string.server_key)
+                    + "/news/news_api.php?token=" + mContext.getString(R.string.server_key)
                     + "&operation=search";
             strURL = strURL + "&userID=" + this.userID;
             strURL = strURL + "&catid=" + catid + "&search_key=" + search_key;
