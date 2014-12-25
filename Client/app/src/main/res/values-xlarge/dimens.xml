@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">64dp</dimen>
+    <dimen name="button_padding">24.0dip</dimen>
+
+</resources>

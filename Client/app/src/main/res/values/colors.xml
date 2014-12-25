@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#ffcccccc</color>
+    <color name="dark_gray">#ff666666</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="application_background">#ffe5e5e5</color>
+    <color name="highlight_pressed">#33999999</color>
+    <color name="highlight_focused">#ffe0e0e0</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="material_blue_500">#5677fc</color>
+    <color name="material_blue_600">#4e6cef</color>
+
+    <color name="primary">#ffd50000</color>
+    <color name="primary_pressed">#ffbc0000</color>
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+
+    <color name="theme_color_1">#ff33b5e5</color> <!-- holo_blue_light -->
+    <color name="theme_color_2">#ff99cc00</color> <!-- holo_green_light -->
+    <color name="theme_color_3">#ffff4444</color> <!-- holo_red_light -->
+    <color name="theme_color_4">#ff0099cc</color> <!-- holo_blue_dark -->
+    <color name="theme_color_5">#ff669900</color> <!-- holo_green_dark -->
+    <color name="theme_color_6">#ffcc0000</color> <!-- holo_red_dark -->
+    <color name="theme_color_7">#ffffbb33</color> <!-- holo_orange_light -->
+    <color name="theme_color_8">#ffaa66cc</color> <!-- holo_purple -->
+    <color name="theme_color_9">#ffff8800</color> <!-- holo_orange_dark -->
+    <color name="theme_color_10">#ff00ddff</color> <!-- holo_blue_bright -->
+    <color name="theme_color_11">#ff99cc00</color> <!-- holo_green_light -->
+    <color name="theme_color_12">#ffff4444</color> <!-- holo_red_light -->
+
+</resources>

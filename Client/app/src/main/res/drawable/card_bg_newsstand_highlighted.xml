@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/card_bg_newsstand" />
+    <item>
+        <shape>
+            <solid android:color="@color/highlight_pressed" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+</layer-list>

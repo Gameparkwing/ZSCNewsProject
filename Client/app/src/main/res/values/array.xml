@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="news_category">
+        <item>学校要闻</item>
+        <item>新闻快讯</item>
+        <item>多彩校园</item>
+        <item>莲峰群英</item>
+        <item>校园原创</item>
+        <item>高教视窗</item>
+        <item>媒体看台</item>
+        <item>公告栏</item>
+        <item>学术信息</item>
+        <item>专题报道</item>
+    </string-array>
+
+    <string-array name="news_category_spinner">
+        <item>全部栏目</item>
+        <item>学校要闻</item>
+        <item>新闻快讯</item>
+        <item>多彩校园</item>
+        <item>莲峰群英</item>
+        <item>校园原创</item>
+        <item>高教视窗</item>
+        <item>媒体看台</item>
+        <item>公告栏</item>
+        <item>学术信息</item>
+        <item>专题报道</item>
+    </string-array>
+
+    <string-array name="news_category_subtitle">
+        <item> </item>
+        <item>来自学校要闻</item>
+        <item>来自新闻快讯</item>
+        <item>来自多彩校园</item>
+        <item>来自莲峰群英</item>
+        <item>来自校园原创</item>
+        <item>来自高教视窗</item>
+        <item>来自媒体看台</item>
+        <item>来自公告栏</item>
+        <item>来自学术信息</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>来自专题报道</item>
+        <item>来自一周热点</item>
+    </string-array>
+    
+    <!-- 系统设置界面需要要到的数组 -->
+    <string-array name="entries_news_text_size">
+        <item>超小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+
+    <string-array name="entryvalues_news_text_size">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <integer-array name="entryvalues_webView_zoom">
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>175</item>
+    </integer-array>
+
+    <string-array name="entries_viewpager_transforms">
+        <item>基本</item>
+        <item>手风琴</item>
+        <item>放大</item>
+        <item>缩小</item>
+        <item>立方体内部</item>
+        <item>立方体外部</item>
+        <item>深度</item>
+        <item>水平翻转</item>
+        <item>垂直翻转</item>
+        <item>向下旋转</item>
+        <item>向上旋转</item>
+        <item>堆叠</item>
+        <item>平板</item>
+        <item>概览</item>
+        <item>向内缩放</item>
+        <item>向外缩放</item>
+    </string-array>
+
+    <string-array name="entryvalues_viewpager_transforms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </string-array>
+
+</resources>

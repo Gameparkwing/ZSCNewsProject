@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="host">192.168.1.114:8088</string>
+    <string name="server_key">4321</string>
+    <string name="base">http://www.zsc.edu.cn/</string>
+    <string name="app_name">中山学院新闻</string>
+    <string name="action_search">搜索</string>
+    <string name="action_hot">一周热点</string>
+    <string name="action_settings">设置</string>
+    <string name="action_open_in_browser">原网页</string>
+    <string name="title_activity_news_content">新闻正文</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="loading">正在加载</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="refresh_finish">刷新完成</string>
+    <string name="no_items">无新闻条目</string>
+    <string name="no_result">找不到相关条目</string>
+    <string name="search_result">共找到%1$d条结果</string>
+    <string name="key_NewsCategoryID">NewsCategoryID</string>
+    <string name="key_NewsContentID">NewsContentID</string>
+    <string name="key_NewsTag">NewsTag</string>
+    <string name="key_NewsURL">NewsURL</string>
+    <string name="key_Type">NewsURL</string>
+    <string name="settings_category_display">显示</string>
+    <string name="settings_category_network">网络</string>
+    <string name="settings_category_message">信息</string>
+    <string name="settings_title_news_text_size">正文字体大小</string>
+    <string name="settings_key_news_text_size">News_Text_Size</string>
+    <string name="settings_title_mini_list">简洁模式</string>
+    <string name="settings_summary_mini_list">新闻列表不显示内容摘要</string>
+    <string name="settings_key_mini_list">MiniList</string>
+    <string name="settings_title_brightness">背光常亮</string>
+    <string name="settings_summary_brightness">阅读新闻时保持屏幕背光常亮</string>
+    <string name="settings_key_brightness">Brightness</string>
+    <string name="settings_title_list_transforms">列表切换特效（重启后生效）</string>
+    <string name="settings_key_list_transforms">List_Transforms</string>
+    <string name="settings_title_message_push">消息推送</string>
+    <string name="settings_summary_message_push">接收新消息推送</string>
+    <string name="settings_key_message_push">Message_Push</string>
+    <string name="settings_title_use_cache">使用本地缓存</string>
+    <string name="settings_summary_use_cache">缓存新闻正文到本地，减少流量消耗</string>
+    <string name="settings_key_use_cache">Use_Cache</string>
+    <string name="settings_title_clear_cache">清理本地缓存</string>
+    <string name="settings_key_clear_cache">Clear_Cache</string>
+    <string name="settings_title_version">版本</string>
+    <string name="settings_summary_version">version 1.0</string>
+    <string name="settings_title_about">关于</string>
+    <string name="settings_summary_about">E-mail:Gameparkwing@gmail.com</string>
+    <string name="toast_error_get_news_list">从服务器获取数据失败</string>
+    <string name="toast_error_get_news_content">从服务器获取数据失败</string>
+    <!-- <string name="toast_error_last_page">已经是最后一页</string> -->
+
+    <string name="title_activity_list_base">中山学院新闻</string>
+    <string name="title_fragment_hot_list">一周热点</string>
+    <string name="title_fragment_search">搜索</string>
+    <string name="subtitle_fragment_search">选择分类</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">输入关键字</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

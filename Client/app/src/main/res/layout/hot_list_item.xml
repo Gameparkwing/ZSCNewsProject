@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/selectable_card_bg_play_color">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/primary"
+        android:layout_gravity="left|center_vertical"
+        android:gravity="center"
+        android:layout_margin="@dimen/hot_list_number_margin"
+        android:paddingLeft="@dimen/hot_list_number_horizontal_padding"
+        android:paddingRight="@dimen/hot_list_number_horizontal_padding"
+        android:lines="1"
+        android:text="1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="left|center_vertical"
+        android:lines="1"
+        android:ellipsize="end"
+        android:padding="@dimen/news_list_text_padding"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="normal"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

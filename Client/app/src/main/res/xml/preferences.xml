@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings_category_display" >
+
+        <ListPreference
+            android:title="@string/settings_title_news_text_size"
+            android:key="@string/settings_key_news_text_size"
+            android:dialogTitle="@string/settings_title_news_text_size"
+            android:entries="@array/entries_news_text_size"
+            android:entryValues="@array/entryvalues_news_text_size"
+            android:persistent="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/settings_title_brightness"
+            android:key="@string/settings_key_brightness"
+            android:summary="@string/settings_summary_brightness"
+            android:defaultValue="false"
+            android:persistent="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/settings_title_mini_list"
+            android:key="@string/settings_key_mini_list"
+            android:summary="@string/settings_summary_mini_list"
+            android:defaultValue="false"
+            android:persistent="true"/>
+
+        <ListPreference
+            android:title="@string/settings_title_list_transforms"
+            android:key="@string/settings_key_list_transforms"
+            android:dialogTitle="@string/settings_title_list_transforms"
+            android:entries="@array/entries_viewpager_transforms"
+            android:entryValues="@array/entryvalues_viewpager_transforms"
+            android:persistent="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_network" >
+
+        <SwitchPreference
+            android:title="@string/settings_title_message_push"
+            android:key="@string/settings_key_message_push"
+            android:summary="@string/settings_summary_message_push"
+            android:defaultValue="true"
+            android:persistent="true"/>
+
+        <CheckBoxPreference
+            android:title="@string/settings_title_use_cache"
+            android:key="@string/settings_key_use_cache"
+            android:summary="@string/settings_summary_use_cache"
+            android:defaultValue="true"
+            android:persistent="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_message" >
+
+        <PreferenceScreen
+            android:title="@string/settings_title_clear_cache"
+            android:key="@string/settings_key_clear_cache"/>
+
+        <PreferenceScreen
+            android:title="@string/settings_title_version"
+            android:summary="@string/settings_summary_version" />
+
+        <PreferenceScreen
+            android:title="@string/settings_title_about"
+            android:summary="@string/settings_summary_about" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

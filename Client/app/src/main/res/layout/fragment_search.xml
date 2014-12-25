@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@null"
+    tools:context="org.waxberry.zscnews.fragment.SearchFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editText_search"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:hint="@string/search_hint"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginBottom="4.0dip"
+            style="@style/ZSCNews_EditText_Title" />
+
+        <include
+            layout="@layout/text_vertical_divider_light" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/button_padding"
+            android:paddingRight="@dimen/button_padding"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@drawable/selectable_item_color"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/search"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_editText"
+        android:paddingLeft="@dimen/news_list_view_padding"
+        android:paddingRight="@dimen/news_list_view_padding"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:listSelector="@color/transparent"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"
+        style="@style/List" />
+
+    <org.waxberry.zscnews.view.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_top_app_white_24dp"
+        fab:fab_colorNormal="@color/primary"
+        fab:fab_colorPressed="@color/primary_pressed"/>
+
+    <TextView
+        android:id="@+id/noItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/no_result"
+        android:visibility="gone" />
+
+</RelativeLayout>

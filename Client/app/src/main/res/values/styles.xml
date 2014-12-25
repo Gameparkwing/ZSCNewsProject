@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="ZSCNews_ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:actionButtonStyle">@android:style/Widget.Holo.ActionButton</item>
+    </style>
+
+    <style name="List">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:dividerHeight">@dimen/news_list_view_divider_height</item>
+    </style>
+
+    <style name="ZSCNews_TextView_Default" >
+        <item name="android:textColorHighlight">@color/light_gray</item>
+    </style>
+
+    <style name="ZSCNews_TextView_Title_Layout">
+        <item name="android:paddingTop">@dimen/news_title_layout_padding_top</item>
+        <item name="android:paddingLeft">@dimen/news_title_layout_padding_left</item>
+        <item name="android:paddingRight">@dimen/news_title_layout_padding_right</item>
+        <item name="android:paddingBottom">@dimen/news_title_layout_padding_bottom</item>
+    </style>
+
+    <style name="ZSCNews_TextView_CardTitle" parent="ZSCNews_TextView_Default">
+        <item name="android:gravity">fill</item>
+        <item name="android:paddingTop">@dimen/news_list_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/news_list_title_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/news_list_title_padding_left</item>
+        <item name="android:paddingRight">@dimen/news_list_title_padding_right</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ZSCNews_TextView_CardSummary" parent="ZSCNews_TextView_Default">
+        <item name="android:gravity">fill</item>
+        <item name="android:paddingTop">@dimen/news_list_summary_padding_top</item>
+        <item name="android:paddingBottom">@dimen/news_list_summary_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/news_list_summary_padding_left</item>
+        <item name="android:paddingRight">@dimen/news_list_summary_padding_right</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="ZSCNews_TextView_CardDate" parent="ZSCNews_TextView_Default">
+        <item name="android:gravity">right</item>
+        <item name="android:paddingTop">@dimen/news_list_date_padding_top</item>
+        <item name="android:paddingBottom">@dimen/news_list_date_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/news_list_date_padding_left</item>
+        <item name="android:paddingRight">@dimen/news_list_date_padding_right</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="ZSCNews_TextView_Title" parent="ZSCNews_TextView_Default">
+        <item name="android:gravity">fill</item>
+        <item name="android:layout_margin">@dimen/news_title_margin</item>
+        <item name="android:paddingTop">@dimen/news_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/news_title_padding_bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHighlight">@color/light_gray</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+    </style>
+
+    <style name="ZSCNews_TextView_SubTitle" parent="ZSCNews_TextView_Default">
+        <item name="android:gravity">left</item>
+        <item name="android:layout_margin">@dimen/news_title_margin</item>
+        <item name="android:paddingTop">@dimen/news_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/news_title_padding_bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHighlight">@color/light_gray</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+    </style>
+
+    <style name="ZSCNews_EditText_Default" >
+        <item name="android:textColorHighlight">@color/light_gray</item>
+    </style>
+
+    <style name="ZSCNews_EditText_Title" parent="ZSCNews_EditText_Default">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHighlight">@color/light_gray</item>
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:lines">1</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:imeOptions">actionDone</item>
+    </style>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="news_list_view_padding">128.0dip</dimen>
+    <dimen name="news_text_view_padding">128.0dip</dimen>
+    <dimen name="button_padding">24.0dip</dimen>
+
+</resources>

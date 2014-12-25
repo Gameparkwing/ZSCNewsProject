@@ -1,0 +1,56 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="org.waxberry.zscnews.activity.NewsContentActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/ZSCNews_TextView_Title_Layout">
+
+            <TextView
+                android:id="@+id/news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ZSCNews_TextView_Title"/>
+
+            <TextView
+                android:id="@+id/news_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ZSCNews_TextView_SubTitle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/news_text_view_padding"
+            android:paddingRight="@dimen/news_text_view_padding"
+            android:layout_below="@id/layout_title"
+            android:background="@color/white">
+
+            <WebView
+                android:id="@+id/news_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:isScrollContainer="false"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+

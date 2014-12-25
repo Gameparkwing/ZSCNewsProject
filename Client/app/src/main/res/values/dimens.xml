@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="tab_height">48dip</dimen>
+    <dimen name="news_list_view_divider_height">8.0dip</dimen>
+    <dimen name="news_list_view_padding">8.0dip</dimen>
+    <dimen name="news_list_text_padding">8.0dip</dimen>
+    <dimen name="news_text_view_padding">8.0dip</dimen>
+    <dimen name="news_title_layout_padding_top">4.0dip</dimen>
+    <dimen name="news_title_layout_padding_bottom">4.0dip</dimen>
+    <dimen name="news_title_layout_padding_left">8.0dip</dimen>
+    <dimen name="news_title_layout_padding_right">8.0dip</dimen>
+    <dimen name="news_list_title_padding_top">8.0dip</dimen>
+    <dimen name="news_list_title_padding_bottom">4.0dip</dimen>
+    <dimen name="news_list_title_padding_left">8.0dip</dimen>
+    <dimen name="news_list_title_padding_right">8.0dip</dimen>
+    <dimen name="news_list_summary_padding_top">4.0dip</dimen>
+    <dimen name="news_list_summary_padding_bottom">4.0dip</dimen>
+    <dimen name="news_list_summary_padding_left">8.0dip</dimen>
+    <dimen name="news_list_summary_padding_right">8.0dip</dimen>
+    <dimen name="news_list_date_padding_top">4.0dip</dimen>
+    <dimen name="news_list_date_padding_bottom">8.0dip</dimen>
+    <dimen name="news_list_date_padding_left">8.0dip</dimen>
+    <dimen name="news_list_date_padding_right">8.0dip</dimen>
+    <dimen name="news_title_padding_top">4.0dip</dimen>
+    <dimen name="news_title_padding_bottom">4.0dip</dimen>
+    <dimen name="loading_text_padding">16.0dip</dimen>
+    <dimen name="refresh_text_padding">10.0dip</dimen>
+    <dimen name="button_padding">16.0dip</dimen>
+    <dimen name="hot_list_number_horizontal_padding">12.0dip</dimen>
+    <dimen name="hot_list_number_margin">4.0dip</dimen>
+    <dimen name="news_title_margin">4.0dip</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_shadow_size">12dp</dimen>
+    <dimen name="fab_scroll_threshold">4dp</dimen>
+    <dimen name="fab_elevation_lollipop">8dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+    <dimen name="refresh_text_size">14sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
