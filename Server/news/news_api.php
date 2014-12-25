@@ -203,7 +203,7 @@ require($RootDir.'/news/DataProvider.class.php');
             //$search_key = mb_convert_encoding($search_key, 'gb2312', 'utf-8');
 			$search_key = urldecode($search_key);
         
-            $data = $data_provider->search_news_list_by_id($catid, $search_key);
+            $data = $data_provider->search_news_list_by_id($userID, $catid, $search_key);
             $output['count'] = $data;
             
             exit(json_encode($output));
